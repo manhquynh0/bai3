@@ -1,0 +1,95 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+header img{
+    width : 400px;
+    height : auto;
+}
+header nav ul {
+    list-style: none;
+    display : flex;
+    background : #FBD8CA;
+   
+}
+header nav ul li{
+    padding : 20px;
+    color : red;
+}
+.body .container{
+    display : flex;
+    width : 100%;
+    margin-top: 20px;
+}
+.body .container section{
+    flex :0 0 40%;
+}
+.body section{
+    border : 2px solid #DBDBDB;
+}
+.body section .title{
+    background : #FEA500;
+    font-size: 20px;
+    color : white;
+    padding : 10px;
+}
+.body section ul li{
+    background : #E8ECED;
+     margin-bottom: 5px;
+     font-weight: bold;
+     padding-left: 10px;
+}
+.body .product-desc {
+    display : flex;
+    border : 2px solid #DBDBDB;
+}
+.body .product-desc .inner-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.body .product-desc .inner-desc{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.body .product-desc .inner-desc div{
+    margin-bottom: 10px;
+
+}
+.body .menu-prd {
+    margin-top: 10px;
+     border : 2px solid #DBDBDB;
+}
+.body .menu-prd .list-prd{
+    display : flex;
+    flex-wrap: wrap;
+    width : 100%;
+    justify-content: space-around;
+}
+.body .menu-prd .list-prd .item{
+    flex : 1 1 20%;
+}
+.body .menu-prd .list-prd .item .price{
+    color :red;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+footer .menu ul li {
+    padding-right : 20px;
+    position : relative;
+}
+ footer .menu ul{
+    display : flex;
+    list-style: none;
+    justify-content: center;
+    
+ }
+nav ul li::after {
+  content: "|";
+  margin-left: 10px;
+}
+
+nav ul li:last-child::after {
+  content: "";
+}
