@@ -93,3 +93,35 @@ nav ul li::after {
 nav ul li:last-child::after {
   content: "";
 }
+@media screen and (max-width : 992px) {
+    .body .menu-prd .list-prd .item {
+         flex : 1 1 50%;
+    }
+    
+}
+@media screen and (max-width : 767px){
+     .body .menu-prd .list-prd .item {
+        flex : 1 1 50%;
+    }
+    .body .menu-prd .list-prd .item img{
+        width : 100px;
+    }
+    .body .product-desc img{
+          width : 150px;
+    }
+}
+@media screen and (max-width : 480px){
+    .body .container section{
+    flex :0 0 30%;
+}
+.body section .title{
+    font-size: 15px;
+}
+nav ul li{
+    font-size: 10px;
+    padding : 5px;
+}
+.body .product-desc .inner-desc div {
+   font-size: 10px;
+}
+}
